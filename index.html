@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Full Stack developer, here you will find information about the projects I have done."
+    />
+    <meta
+      property="og:description"
+      content="Full Stack developer, here you will find information about the projects I have done. "
+    />
+    <meta property="og:title" content="Jahziel Cabrera | Full Stack Developer" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:site_name"
+      content="Jahziel Cabrera | Full Stack Developer"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="apple-touch-icon" href="./assets/logo.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/logo-120x120.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/logo-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/logo-16x16.png"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media.css" media="(max-width: 991px)" />
+    <script
+      src="https://kit.fontawesome.com/7b5fb2de65.js"
+      crossorigin="anonymous"
+      async
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Jahziel Cabrera | Full Stack Developer</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        
+        <div class="">
+          
+        </div>
+        <div class="navbar__menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="navbar__links">
+          <li class="navbar__link active" data-ref="home">
+            <a href="#home">Home</a>
+          </li>
+          <li class="navbar__link" data-ref="about">
+            <a href="#about">About</a>
+          </li>
+          <li class="navbar__link" data-ref="portfolio">
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li class="navbar__link" data-ref="contact">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section id="home" class="home">
+      <div class="home__background"></div>
+      <picture>
+        <source type="image/webp" srcset="./assets/profile.webp" />
+        <source type="image/jpeg" srcset="./assets/profile.jpg" />
+        <img class="home__profile" alt="picture profile" />
+      </picture>
+      <div class="home__description">
+        <span class="home__title--primary">Hi!</span>
+        <h1 class="home__title">I'm Jahziel Cabrera</h1>
+        <h2 class="home__title--secondary">Full Stack Developer 🚀</h2>
+        <p class="home__quote">"Intelligence is the ability to adapt to change" - <i>Stephen Hawking</i></p>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <h2 class="section__title">About me</h2>
+        <div class="about__grid">
+          <div class="about__skills">
+            <div class="skill__title">
+              <h2>My skills</h2>
+            </div>
+            <div class="skill__item">
+              <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB icon"/>
+              <div class="skill__name">MongoDB</div>
+            </div>
+            <div class="skill__item">
+              <img src="/assets/expressjs.svg" alt="Express.js icon"/>
+              <div class="skill__name">Express.js</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-node"></i>
+              <div class="skill__name">Node.js</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-react"></i>
+              <div class="skill__name">React.js</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-js"></i>
+              <div class="skill__name">JavaScript</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-git-alt"></i>
+              <div class="skill__name">GIT</div>
+            </div>
+          </div>
+          <div class="about__description">
+            <h2>I'm Jahziel Cabrera, Full Stack Developer, Physicist and Robotics Enthusiast.</h2>
+            <p>
+              I am a Full Stack developer with experience building websites and web applications. I specialize in JavaScript, and have professional experience working with React.
+            </p>
+
+            <p>
+              I am always seeking to improve my skills and continue growing professionally in order to make valuable contributions at the working group I am part of.
+            </p>
+            <a
+              class="button--cta"
+              href="./assets/JahzielCabrera_resume_v3.1.pdf"
+              download="JahzielCabrera_resume"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fas fa-file-download"></i>Download CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="container">
+        <h2 class="section__title">Portfolio</h2>
+        <h3 class="section__subtitle">Here you can see the projects I have worked on.</h3>
+        <div class="portfolio__grid">
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/digital-menu-app.png" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">EnjooyMX</h3>
+              <p class="portfolio__description--text">
+                Web application with NodeJS, Handlebars, Stripe and MongoDB.
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://enjooy.jahzielcabrera.xyz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jahzielcabrera/enjooyMX"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/fitting-room.png" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Fitting Room</h3>
+              <p class="portfolio__description--text">
+                Web application with Augmented Reality. ml5.js, NodeJS, Handlebars and MongoDB.
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://fitting-room.jahzielcabrera.xyz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jahzielcabrera/fitting-room"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/erp-software.png" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">ERP - Web App</h3>
+              <p class="portfolio__description--text">
+                MERN App, Websockets, Material UI.
+              </p>
+              <div class="buttons__container">
+                
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/crm-software.png" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">CRM - Web App</h3>
+              <p class="portfolio__description--text">
+                Web Application: React, NodeJS, MongoDB
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://crm.jahzielcabrera.xyz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jahzielcabrera/crm-mern"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/cryptocurrency.png" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Cryptocurrency Exchange Calculator</h3>
+              <p class="portfolio__description--text">
+                JavaScript
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://crypto.jahzielcabrera.xyz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jahzielcabrera/crypto-exchange"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/web-scraping.png" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Newspaper webscraping</h3>
+              <p class="portfolio__description--text">
+                ETL process to get Daily News from two Mexican Newspapers
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://github.com/jahzielcabrera/WebScraper"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h2 class="section__title">Contact Me</h2>
+        <div class="contact__grid">
+          <a
+            href="mailto:jahziel_oswaldo@hotmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+
+              <i class="far fa-envelope"></i>
+              <p>Mail Me</p>
+            </div>
+          </a>
+          <a
+            href="https://github.com/jahzielcabrera"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-github"></i>
+              <p>Follow Me</p>
+            </div>
+          </a>
+          <a
+            href="https://twitter.com/jahzielcabrera"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-twitter"></i>
+              <p>Follow Me</p>
+            </div>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jahzielcabrera/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-linkedin-in"></i>
+              <p>Contact Me</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <p>
+          Copyright © 2022. <a href="#">jahzielcabrera.xyz</a> <br />
+          All Rights Reserved
+        </p>
+      </div>
+    </footer>
+    <script async src="./index.js"></script>
+  </body>
+</html>
